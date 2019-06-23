@@ -18,6 +18,21 @@ Changed the loss function to Huber loss.
         loss = F.smooth_l1_loss(Q_expected, Q_targets)
 ```
 
+### Model
+
+Following model is used as a DQN network for deep learning.
+This is imeplemented with torch.nn.Module.
+
+Input is the number of state size, and the output is the number of actions.
+
+QNetwork(
+  (fc1): Linear(in_features=37, out_features=64, bias=True)
+  Relu
+  (fc2): Linear(in_features=64, out_features=64, bias=True)
+  Relu
+  (fc3): Linear(in_features=64, out_features=4, bias=True)
+)
+
 ### Parameter
 
 | DQN Hyper Parameter | Value | Explanation |
