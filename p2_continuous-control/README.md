@@ -106,4 +106,14 @@ The requirements.txt includes the followings
 * ipykernel
 * tqdm_notebook 
 
+4. How to run
 
+Open the jupyter notebook with the following commands.
+
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+jupyter notebook Continuous_Control.ipynb
+```
+
+Then in the page opened in your default browser, press run button to run each jupyter notebook cells from top to buttom.
