@@ -90,20 +90,30 @@ pip install .
 
 The requirements.txt includes the followings
 
-tensorflow_gpu==1.13.1
-Pillow>=4.2.1
-matplotlib
-numpy>=1.11.0
-jupyter
-pytest>=3.2.2
-docopt
-pyyaml
-protobuf==3.5.2
-grpcio==1.11.0
-torch==0.4.0
-pandas
-scipy
-ipykernel
-tqdm_notebook 
+* tensorflow_gpu==1.13.1
+* Pillow>=4.2.1
+* matplotlib
+* numpy>=1.11.0
+* jupyter
+* pytest>=3.2.2
+* docopt
+* pyyaml
+* protobuf==3.5.2
+* grpcio==1.11.0
+* torch==0.4.0
+* pandas
+* scipy
+* ipykernel
+* tqdm_notebook 
 
+4. How to run
 
+Open the jupyter notebook with the following commands.
+
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+jupyter notebook Continuous_Control.ipynb
+```
+
+Then in the page opened in your default browser, press run button to run each jupyter notebook cells from top to buttom.
